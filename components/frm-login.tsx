@@ -9,9 +9,9 @@ import {
 import { useState } from 'react';
 //npm install react-native-toast-message
 import { auth } from '@/lib/firebase';
+import { router } from 'expo-router'; //captura de rota
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Toast from 'react-native-toast-message';
-import { router } from 'expo-router'; //captura de rota
 
 export default function Login() {
 

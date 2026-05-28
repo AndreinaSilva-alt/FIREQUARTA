@@ -7,14 +7,14 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCYfC0pC0rcmtBqh6lvRU3uPQvkl968YME",
-  authDomain: "aulaquarafb.firebaseapp.com",
-  databaseURL: "https://aulaquarafb.firebaseio.com",
-  projectId: "aulaquarafb",
-  storageBucket: "aulaquarafb.firebasestorage.app",
-  messagingSenderId: "312448902362",
-  appId: "1:312448902362:web:385d9256b5ca27b23ab1e3",
-  measurementId: "G-HCE5D1CD8C"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE__AUTH_DOMAIN,
+  databaseURL: process.env.EXPO_PUBLIC_FIREBASE_DATA_BASE_URL,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 
